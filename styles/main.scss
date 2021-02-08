@@ -1,0 +1,33 @@
+//set the background for the website
+body{
+    background-image: url("images/background.jpg");
+    background-color: #cccccc;
+}
+
+//format the "header" for the page - centered, padded and made white
+#profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+//centre the text and format the text colour to be white
+#name{
+    text-align: center;
+    color: whitesmoke;
+}
+
+//setting the text colour and setting the padding up
+.sectionFormat{
+    color: whitesmoke;
+    padding: 10px;
+}
+
+//setting the middle list to be spaced to the middle of the page
+#midList{
+    margin: auto;
+    width: 10%;
+}

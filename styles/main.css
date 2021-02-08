@@ -1,0 +1,29 @@
+body {
+  background-image: url("images/background.jpg");
+  background-color: #cccccc;
+}
+
+#profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  border: 2px solid whitesmoke;
+  padding: 5px;
+}
+
+#name {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.sectionFormat {
+  color: whitesmoke;
+  padding: 10px;
+}
+
+#midList {
+  margin: auto;
+  width: 10%;
+}
+/*# sourceMappingURL=main.css.map */

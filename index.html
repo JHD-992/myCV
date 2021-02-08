@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags for bootstrap-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--link to bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!--importing of jquery and jquery ui packages-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+    <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+
+    <!--link to custom CSS-->
+    <link rel="stylesheet" href = "styles/main.css" type = "text/css">
+
+    <title>About Me</title>
+</head>
+
+<body>
+    
+    <div id="name">
+        <!--Page Heading-->
+        <h1>WELCOME TO MY PAGE</h1>
+        <!--Profile Picture-->
+        <img id="profile" src="Images/JHD.jpg">
+        <!--sub heading of name and full name-->
+        <h1>Jaco Dreyer</h1>
+        <h6>(Jacob Hendrik)</h6>
+    </div> 
+    
+    <!--div for about me information-->
+    <div id="aboutMe" class="sectionFormat">
+        <!--header for section-->
+        <h5><u>About Me</u></h5>
+        <!--about me information section-->
+        <p id="aboutMeInfo">
+            I am a graduate from Stellenbosch University with a degree in Conservation Ecology and I am currently enrolled in the Hyperion Development 
+            Full Stack Web Development and Software Engineering Immersive Bootcamp. This makes me uniquely suited to chasing bugs, crawling and otherwise.
+            I am currently equipping myself for a career change due to a limited opportunies in my original field of study and a divergence of vision with
+            my previous employer.
+
+            While a significant passion will remain the natural world and it's systems, I have had a keen interest in coding since my high school days when 
+            I took IT as an elective subject purely for interest sakes. I am hoping to use the transferable skills I have learnt over these two differing
+            industries to position myself for a fulfilling and long-term career.
+            <br>
+            <br>
+            A very significant personal driver is the appetite to continually be learning. I have an immense hunger for learning and thinking of ways to 
+            improve the way things are currently done. I believe that this is a benefit within the software field as there are many different programming
+            languages to learn and master. I'd like to also learn more langauges of the spoken variety to add to my English and Afrikaans. I have experience in working to production deadlines, basic assembly of electronics, assisting with software debugging, quality control,
+            implementing qualtiy assurance structures, customer support and liasing with the public. I have experience with working under pressure
+            (potentially being bitten by snakes is pressure).
+            <br>
+            <br>
+            I would like to work towards a long-term and fulfilling career that challenges me to keep learning and has space for growth and continued
+            improvement and development, both professionally and personally. 
+        </p>
+    </div>
+
+    <!--div for skills section-->
+    <div id="skills" class="sectionFormat">
+    <!--header for section-->    
+    <h5><u>Skills & Competencies</u></h5>
+        <div id="skillsList">
+            <!--list of competencies, placed left on page-->
+            <div id="leftList" class="float-start">
+                <ul>
+                    <li>Administration and Logistics</li>
+                    <li>Conflict Management</li>
+                    <li>Management Plans</li>
+                    <li>Wildlife Management</li>
+                    <li>Systematics</li>
+                </ul>
+            </div>
+
+            <!--list of competencies, placed right on page-->
+            <div id="endList" class="float-end">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Documentation</li>
+                    <li>Customer Liason</li>
+                </ul>
+            </div>
+
+            <!--list of competencies, placed center on page-->
+            <div id="midList">
+                <ul>
+                    <li>Customer Support</li>
+                    <li>Electronic Assembly</li>
+                    <li>Troubleshooting</li>
+                    <li>Client Training</li>
+                    <li>Quality Assurance</li>
+                </ul>
+            </div>
+        </div>    
+    </div>
+
+    <!--dic for education section-->
+    <div id="education" class="sectionFormat">
+        <!--header for section-->
+        <h5><u>Education</u></h5>
+        <!--list used to capture education information-->
+        <div id="eduList">
+            <ul>
+                <li>Hyperion Development - Fullstack Web Development and Software Engineering (Immersive Bootcamp) - 2021</li>
+                <li>Stellenbosch University - BSc Conservation Ecology & Entomology - 2015</li>
+                <li>Melkbosstrand Private School - Matriculated 2011</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!--div for work experience section-->
+    <div id="exp" class="sectionFormat">
+        <!--header for section-->
+        <h5><u>Work Experience</u></h5>
+        <!--list used to capture work experience, contains inner paragraphs for more info-->
+        <div id="expList">
+            <ul>
+                <li>RFID Experts Africa - Electronic Technician and Software Support - 1y 8 mos
+                    <p>Assembly, training and support for all products that were provided to clients</p>
+                </li>
+                <li>RFID Experts Africa - Technical Installer - 1y 7mos
+                    <p>Assembly, transport and installation of infrastructure for clients</p>
+                </li>
+                <li>Human Wildlife Solutions - Field Manager - 4 mos
+                    <p>Management of staff and resource deployment to maximise success of wildlife management</p>
+                </li>
+                <li>Cape Town Environmental Education Trust - Intern - 1 year
+                    <p>Fire fighting, animal rescue, environmental awareness and legislation compliance</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--div for contact information section-->
+    <div id="contact" class="sectionFormat">
+        <!--section header-->
+        <h5><u>Contact Details: </u></h5>
+        <!--header format used for clear display of information-->
+        <h6>Cellphone: 084 798 6064</h6>
+        <!--header format used for clear display of information-->
+        <h6>Email: jhdreyer@iafrica.com</h6>
+        <!--header format used for clear display of information as well as a hyperlink to site-->
+        <h6>LinkedIn: <a id="linkedIn" class="link" target="_blank" href="https://www.linkedin.com/in/jaco-dreyer-92a0b8139/">Jaco Dreyer</a></h6>
+    </div>
+
+    <!--link to script file to be loaded once HTML is fully loaded.-->
+    <script type='text/javascript' src="javascript/main.js"></script>
+</body>
+
+</html>
