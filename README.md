@@ -6,6 +6,8 @@
 
 1. Description
 1. Installation
+1. Usage
+1. Credits
 
 ### 1. Description
 A web hosted version of a cv so as to assist in personal marketing for job-hunting. It should host a basic description of myself, my skills and experience.
