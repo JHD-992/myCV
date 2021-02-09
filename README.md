@@ -5,6 +5,7 @@
 ### Table of Contents
 
 l. Description
+l. Installation
 
 ### 1. Description
 A web hosted version of a cv so as to assist in personal marketing for job-hunting. It should host a basic description of myself, my skills and experience.
